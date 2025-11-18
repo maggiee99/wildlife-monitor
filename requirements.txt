@@ -1,10 +1,16 @@
-streamlit
-streamlit-webrtc
-opencv-python-headless
+streamlit==1.51.0
+streamlit-webrtc==0.64.0
+
+# Stable TensorFlow version that supports Python 3.9–3.12
+tensorflow==2.19.0
+
+# Headless OpenCV (no GUI/OpenGL dependency)
+opencv-python-headless==4.12.0.88
+
+# Leave others unpinned or pin if you want reproducibility
 pandas
 scikit-learn
 matplotlib
 av
 joblib
-tensorflow
 numpy
