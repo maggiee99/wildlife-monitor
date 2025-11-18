@@ -6,6 +6,5 @@ scikit-learn
 matplotlib
 av
 joblib
-numpy==1.26.4
-tensorflow-cpu==2.15.0
-scikit-learn
+tensorflow
+numpy
