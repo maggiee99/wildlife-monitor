@@ -24,7 +24,7 @@ st.set_page_config(
 st.title("Live Wildlife Camera Trap 🤖")
 
 # -------------------- Paths --------------------
-MODEL_PATH = "saved_models/image_classifier_finetuned.keras"
+MODEL_PATH = "saved_models/image_classifier_finetuned.h5"
 ENCODER_PATH = "saved_models/label_encoder.pkl"
 
 HISTORY_NPY = "saved_models/training_history.npy"
