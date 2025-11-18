@@ -1,0 +1,15 @@
+# virtual env
+venv/
+
+# python cache
+__pycache__/
+*.pyc
+
+# notebooks
+.ipynb_checkpoints/
+
+# data (you removed it; keep ignoring it)
+data/
+
+# logs / runtime files
+predictions_log.csv
